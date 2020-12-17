@@ -1,5 +1,5 @@
-##CoinRanking
+## CoinRanking
 
-###Get high quality data using the CoinRankingAPI
+### Get high quality data using the CoinRankingAPI
 
-#####This project was built using React, JavaScript, and Bootstrap
+##### This project was built using React, JavaScript, and Bootstrap
