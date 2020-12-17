@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.allCoins {
+  padding: 7%
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coin {
+  padding-bottom: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Symbol {
+  font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Name {
+  font-weight: 500;
+}
+
+.Description {
+  text-align: justify;
+}
+
+.allmarkets {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.markets {
+  padding: 8%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.allForex {
+  padding: 8% 10% 0% 10%;
+}
+
+.home {
+padding: 3% 20%;
+}
+
+.search {
+padding-left: 45%;
 }
