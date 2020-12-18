@@ -1,0 +1,42 @@
+.allCoins {
+  padding: 7%
+}
+
+.coin {
+  padding-bottom: 5%;
+}
+
+.Symbol {
+  font-weight: 800;
+}
+
+.Name {
+  font-weight: 500;
+}
+
+.Description {
+  text-align: justify;
+}
+
+.allmarkets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.markets {
+  padding: 8%;
+}
+
+.allForex {
+  padding: 8% 10% 0% 10%;
+}
+
+.home {
+padding: 3% 20%;
+}
+
+.search {
+padding-left: 45%;
+}
