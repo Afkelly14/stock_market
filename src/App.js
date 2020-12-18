@@ -53,9 +53,9 @@ class App extends React.Component {
           <BrowserRouter>
             <Nav />
             <Route exact path="/" component={Home} />
-            <Route exact path="stock_market/Coins" component={Coins} />
-            <Route exact path="stock_market/Markets" component={Markets} />
-            <Route exact path= "stock_market/Foreign" component={Forex} />
+            <Route exact path="/Coins" component={Coins} />
+            <Route exact path="/Markets" component={Markets} />
+            <Route exact path= "/Foreign" component={Forex} />
           </BrowserRouter>
        
       </div>
