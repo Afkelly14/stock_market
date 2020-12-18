@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stock_market/static/css/main.e37839dd.chunk.css",
-    "main.js": "/stock_market/static/js/main.c82e90eb.chunk.js",
-    "main.js.map": "/stock_market/static/js/main.c82e90eb.chunk.js.map",
+    "main.js": "/stock_market/static/js/main.407d2a7a.chunk.js",
+    "main.js.map": "/stock_market/static/js/main.407d2a7a.chunk.js.map",
     "runtime-main.js": "/stock_market/static/js/runtime-main.0a9a4d26.js",
     "runtime-main.js.map": "/stock_market/static/js/runtime-main.0a9a4d26.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/stock_market/static/css/2.20aa2d7b.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.6b6025c2.chunk.js",
     "static/css/main.e37839dd.chunk.css",
-    "static/js/main.c82e90eb.chunk.js"
+    "static/js/main.407d2a7a.chunk.js"
   ]
 }
