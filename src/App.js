@@ -50,7 +50,7 @@ class App extends React.Component {
     return (
       <div>
       
-          <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <BrowserRouter>
             <Nav />
             <Route exact path="/" component={Home} />
             <Route exact path="stock_market/Coins" component={Coins} />
