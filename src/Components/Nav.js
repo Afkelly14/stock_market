@@ -24,14 +24,14 @@ class Nav extends Component {
             </LinkContainer>
             <ReactBootStrap.Nav.Link target="_blank" href="https://rapidapi.com/Coinranking/api/coinranking1/details">API Details</ReactBootStrap.Nav.Link>
             <ReactBootStrap.NavDropdown title="Bitcoin" id="basic-nav-dropdown">
-           <LinkContainer exact to="/Coins" onClick={this.forceUpdate} component={Coins}>
+           <LinkContainer exact to="stock_market/Coins" onClick={this.forceUpdate} component={Coins}>
               <ReactBootStrap.NavDropdown.Item>Coins</ReactBootStrap.NavDropdown.Item>
               </LinkContainer>
-              <LinkContainer exact onClick={this.forceUpdate} to="/Markets" component={Markets}>
+              <LinkContainer exact onClick={this.forceUpdate} to="stock_market/Markets" component={Markets}>
               <ReactBootStrap.NavDropdown.Item>Markets</ReactBootStrap.NavDropdown.Item>
               </LinkContainer>
               <ReactBootStrap.NavDropdown.Divider />
-              <LinkContainer exact to="/Foreign" onClick={this.forceUpdate} component={Forex}>
+              <LinkContainer exact to="stock_market/Foreign" onClick={this.forceUpdate} component={Forex}>
               <ReactBootStrap.NavDropdown.Item>Foreign Exchange</ReactBootStrap.NavDropdown.Item>
               </LinkContainer>
             </ReactBootStrap.NavDropdown>
