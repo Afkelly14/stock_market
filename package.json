@@ -17,10 +17,12 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "homepage": "https://Afkelly14.github.io/stock_market/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "gh-pages -d src"
   },
   "eslintConfig": {
     "extends": [
