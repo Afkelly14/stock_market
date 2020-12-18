@@ -52,10 +52,10 @@ class App extends React.Component {
       
           <BrowserRouter>
             <Nav />
-            <Route exact path="/" component={Home} />
-            <Route exact path="/Coins" component={Coins} />
-            <Route exact path="/Markets" component={Markets} />
-            <Route exact path="/Foreign" component={Forex} />
+            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route exact path={process.env.PUBLIC_URL + "/Coins"} component={Coins} />
+            <Route exact path={process.env.PUBLIC_URL + "/Markets"} component={Markets} />
+            <Route exact path={process.env.PUBLIC_URL + "/Foreign"} component={Forex} />
           </BrowserRouter>
        
       </div>
